@@ -1,0 +1,28 @@
+header {
+    position: sticky;
+    top: 0;
+}
+
+.navdes {
+    width: inherit;
+    height: 15px;
+    background-color: rgb(66, 66, 66);
+}
+
+.hover:hover {
+    .navdes {
+        background-color: rgb(220, 229, 242);
+    }
+}
+
+.hoveractive:hover {
+    .navdesactive {
+        background-color: rgb(21, 56, 228);
+    }
+}
+
+.navdesactive {
+    width: inherit;
+    height: 15px;
+    background-color: rgb(48, 123, 221);
+}
