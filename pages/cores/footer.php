@@ -1,15 +1,16 @@
+        
         <footer class="container-fluid bg-dark mt-5">
             <hr class="line">
             <div class="container z-2 text-white text-container-5">
                 <div class="row">
                     <div class="col-xl-4 col-12 my-2 d-block">
                         <h5 class="mb-3">About</h5>
-                        <p class="textjustify">Welcome to our virtual gallery! We are your online source for art. Browse our collection of inspired works and discover the world of creativity. Our virtual gallery provides the opportunity to discover, explore, and share art from diverse artists. Join us on this artistic journey.</p>
+                        <p class="textjustify">Our Employee Order Management page is designed to empower our staff members with the tools they need to effectively manage orders and ensure smooth operations. As an employee, this platform will streamline your workflow, allowing you to handle orders efficiently and provide excellent service to our valued customers.</p>
                     </div>
                     <div class="col-xl-4 col-md-6 col-12 my-2 d-block">
-                        <h5>Virtual Gallery</h5>
+                        <h5>Orders Management</h5>
                         <div class="d-flex justify-content-center">
-                            <img class="img-fluid imgresize" src="img/logo.png" alt="logo">
+                            <img class="img-fluid imgresize" src="../img/logo.png" alt="logo">
                         </div>
                     </div>
                     <div class="col-xl-4 col-md-6 col-12 my-2 d-block">
@@ -26,7 +27,7 @@
                                     </i>
                                 </div>
                             </li>
-                            <li>Author:<i>&nbsp; Erik Boháč</i></li>
+                            <li>Authors:<i>&nbsp; Erik Boháč, Václav Vondráček</i></li>
                         </ul>
                     </div>
                 </div>
