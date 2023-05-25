@@ -85,3 +85,7 @@ header {
     height: 3px;
     background-color: gray;
 }
+
+.respwidth {
+    width: 8vw;
+}
