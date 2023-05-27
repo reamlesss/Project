@@ -1,3 +1,10 @@
+<?php
+    if ($_SESSION["logged"] != "true")
+    {
+        die();
+    }
+?>
+
 <main class="my-5">
     <h1 class="text-container-4 text-center d-flex justify-content-center my-5 display-4">You can manage your orders here.</h1>
     <div id="resp" class="my-5 text-center"></div>
@@ -10,7 +17,7 @@
     <div class="mt-5 text-container-5">
         <div>
         </div>
-        <div class="container" id="roll">
+        <div class="container d-flex overflow-scroll" id="roll">
             <table class="table table-striped border border-2">
                 <thead>
                     <tr class="bg-primary-subtle">

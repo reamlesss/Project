@@ -89,3 +89,8 @@ header {
 .respwidth {
     width: 8vw;
 }
+
+.middle {
+    margin-top: 25vh;
+    margin-bottom: 25vh;
+}

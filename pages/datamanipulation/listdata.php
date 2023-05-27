@@ -4,7 +4,17 @@ session_start();
 
 function ListData($rowsCount)
 {
-    $file = fopen('./data/orders.csv', 'r');
+    $file = null;
+
+    if (!isset($_SESSION["data"]))
+    {
+        $file = fopen('./pages/datamanipulation/data/orders.csv', 'r');
+    }
+    else   
+    {
+        $file = fopen('./data/orders.csv', 'r');
+    }
+
     $data = [];
 
     for ($i = 0; $i < $rowsCount; $i++) {
@@ -24,8 +34,7 @@ function ListData($rowsCount)
 
 if (!isset($_SESSION["data"]))
 {
-    $count = 50;
-    $_SESSION["data"] = ListData($count);
+    $_SESSION["data"] = ListData(50);
 }
 else   
 {

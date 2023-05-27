@@ -1,3 +1,10 @@
+<?php
+    if ($_SESSION["logged"] != "true")
+    {
+        die();
+    }
+?>
+
 <main class="my-5 container">
     <h1 class="text-container-4 text-center d-flex justify-content-center my-5 display-4">You add orders manually here.</h1>
     <?php

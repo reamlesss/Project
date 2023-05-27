@@ -17,6 +17,7 @@ function TryLogin($emailx, $passx)
         if($email == $emailx && CorrectPass($passx, $pass) && $active == "true")
         {
             $_SESSION["logged"] = "true";
+            unset($_SESSION["error"]);
             break;
         }
         else if($email == $emailx && CorrectPass($passx, $pass))
